@@ -75,12 +75,12 @@ body {
   margin-top: 127px;
 }
 
-.header-title-caption, .caption-start, .caption-end, .source-name {
+.upper-heading, .source-name { 
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.caption-start, .caption-end {
+.upper-heading { 
   font-size: 28px; 
   font-weight: 700;
   line-height: 31px;
@@ -139,7 +139,7 @@ body {
   padding-top: 13px;
 }
 
-.section-title, .option-title, .instruction-unit-title, .footer-title, .footer-tagline {
+.lower-heading  { 
   margin-top: 0;
   margin-bottom: 0;
   text-transform: uppercase;
@@ -150,13 +150,13 @@ body {
   margin-top: 5px;
 }
 
-.option-title, .instruction-unit-title, .footer-title, .option-number, .unit-number {
+.lower-heading, .option-number, .unit-number { 
   line-height: 35px;
 }
 
-.section-title {
+.section-title { 
   font-size: 50px;
-  line-height: 60px;
+  line-height: 60px; 
   color: #e7e7e7; 
 }
 
@@ -237,7 +237,7 @@ body {
   color: #9173e6;
 }
 
-.option-contain {
+.option-text {     
   margin-top: 15px;
   margin-bottom: 0;
 }
@@ -293,7 +293,7 @@ body {
   color: #e7e7e7;
 }
 
-.instruction-unit-contain {
+.instruction-unit-text { 
   font-size: 16px;
   line-height: 20px;
   margin-top: 15px;
@@ -346,9 +346,9 @@ body {
   margin-top: 50px; 
 }
 
-.footer-tagline {
+.footer-tagline { 
   font-size: 14px;
-  line-height: 18px;
+  line-height: 18px; 
   font-weight: 400;
   color: #9b8ec1;
   margin-top: 5px;
@@ -432,7 +432,7 @@ body {
     padding-left: 50px;
   }
 
-  .caption-start, .caption-end {
+  .upper-heading { 
     font-size: 64px;
     line-height: 80px;
   }
@@ -506,11 +506,11 @@ body {
     line-height: 100px;
   }
 
-  .section-athlets-title, .option-athlets-title, .option-athlets-contain {
+  .section-athlets-title, .option-athlets-title, .option-athlets-text { 
     padding-left: 292px; 
   }
 
-  .option-players-contain {
+  .option-players-text { 
     padding-right: 350px;
   }
 
@@ -562,7 +562,7 @@ body {
     top: 25px;
   }
 
-  .option-contain {
+  .option-text { 
     margin-top: 15px;
     margin-bottom: 0;
   }
@@ -601,7 +601,7 @@ body {
     top: 33px;
   }
 
-  .instruction-unit-contain {
+  .instruction-unit-text { 
     font-size: 24px;
     line-height: 30px;
     margin-top: 10px;
@@ -696,11 +696,11 @@ body {
     padding-left: 25px;
   }
 
-  .section-athlets-title, .option-athlets-title, .option-athlets-contain {
+  .section-athlets-title, .option-athlets-title, .option-athlets-text { 
     padding-left: 280px; 
   }
 
-  .option-players-contain {
+  .option-players-text { 
     padding-right: 300px;
   }
 
@@ -748,7 +748,7 @@ body {
     margin-top: 282px; /*29.4vh*/
   }
 
-  .caption-start, .caption-end {
+  .upper-heading { 
     font-size: 90px;
     line-height: 92px;
   }
@@ -781,7 +781,7 @@ body {
     right: calc(28.7vw - 415px); /*-140px - 135px*/
   }
 
-  .section-athlets-title, .option-athlets-title, .option-athlets-contain {
+  .section-athlets-title, .option-athlets-title, .option-athlets-text { 
     padding-left: 52.3vw; /*1005px*/
   }
 
@@ -830,7 +830,7 @@ body {
     padding-bottom: 85px;
   }
 
-  .option-players-contain {
+  .option-players-text {              
     padding-right: 52.3vw; /*1005px*/
   }
 
@@ -914,7 +914,7 @@ body {
     top: 33px;
   }
 
-  .instruction-unit-contain {
+  .instruction-unit-text { 
     margin-top: 51px;
     margin-bottom: 59px;
   }
@@ -990,7 +990,7 @@ body {
 
 @media (min-width: 961px) and (max-width: 1760px) {
 
-  .caption-start, .caption-end {
+  .upper-heading { 
     font-size: 80px;
   }
 }
@@ -1037,11 +1037,11 @@ body {
     margin-left: 440px;
   }
 
-  .section-athlets-title, .option-athlets-title, .option-athlets-contain {
+  .section-athlets-title, .option-athlets-title, .option-athlets-text { 
     padding-left: 1005px;
   }
 
-  .option-players-contain {
+  .option-players-text { 
     padding-right: 1005px;
   }
   
